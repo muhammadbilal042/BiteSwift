@@ -5,16 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.biteswift.Adapter.Popular_Adapter
 import com.example.biteswift.R
-import com.example.biteswift.databinding.ActivitySignUpBinding
 import com.example.biteswift.databinding.FragmentHomefragmentBinding
 
 
-class Homefragment : Fragment() {
+class Papular_Item_Fragment : Fragment() {
 
     private lateinit var binding : FragmentHomefragmentBinding
     override fun onCreate(savedInstanceState: Bundle?) {
