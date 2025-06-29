@@ -24,9 +24,12 @@ class CartFragment : Fragment() {
     ): View? {
         binding = FragmentCartBinding.inflate(inflater, container, false)
 
-        val cartfoodNames = listOf("Herbal Pancake", "Fruit Salad", "Green Noddle", "Spacy fresh crab", "Green Noddle", "Spacy fresh crab")
-        val cartprices = listOf("$5", "$6", "$7", "$8", "$7", "$8")
-        val cartimages = listOf(R.drawable.banner1, R.drawable.fruit_salad, R.drawable.green_noddle, R.drawable.spacy_fresh_crab, R.drawable.green_noddle, R.drawable.spacy_fresh_crab)
+        val cartfoodNames = listOf("Herbal Pancake", "Fruit Salad", "Green Noddle", "Spacy fresh crab",
+            "Green Noddle", "Spacy fresh crab","Spacy fresh crab", "Green Noddle", "Spacy fresh crab")
+        val cartprices = listOf("$5", "$6", "$7", "$8", "$7", "$8","$8", "$7", "$8")
+        val cartimages = listOf(R.drawable.banner1, R.drawable.fruit_salad, R.drawable.green_noddle,
+            R.drawable.spacy_fresh_crab, R.drawable.green_noddle, R.drawable.spacy_fresh_crab,
+            R.drawable.spacy_fresh_crab, R.drawable.green_noddle, R.drawable.spacy_fresh_crab)
 
 
         val adapter = CartAdapter(ArrayList(cartfoodNames), ArrayList(cartprices), ArrayList(cartimages))

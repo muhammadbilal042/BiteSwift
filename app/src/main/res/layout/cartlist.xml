@@ -64,13 +64,13 @@
                 android:layout_height="26dp"
                 android:layout_marginEnd="8dp"
                 android:background="@drawable/addtocardshape"
-                app:layout_constraintBottom_toBottomOf="@+id/cartquantitytv"
-                app:layout_constraintEnd_toStartOf="@+id/cartquantitytv"
-                app:layout_constraintTop_toTopOf="@+id/cartquantitytv"
+                app:layout_constraintBottom_toBottomOf="@+id/cartquantity"
+                app:layout_constraintEnd_toStartOf="@+id/cartquantity"
+                app:layout_constraintTop_toTopOf="@+id/cartquantity"
                 app:srcCompat="@drawable/negetivebutton" />
 
             <ImageButton
-                android:id="@+id/cartplusbtn"
+                android:id="@+id/plusbtn"
                 android:layout_width="26dp"
                 android:layout_height="26dp"
                 android:layout_marginTop="14dp"
@@ -81,14 +81,14 @@
                 app:srcCompat="@drawable/possitivebuttn" />
 
             <TextView
-                android:id="@+id/cartquantitytv"
+                android:id="@+id/cartquantity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:text="1"
-                app:layout_constraintBottom_toBottomOf="@+id/cartplusbtn"
-                app:layout_constraintEnd_toStartOf="@+id/cartplusbtn"
-                app:layout_constraintTop_toTopOf="@+id/cartplusbtn" />
+                app:layout_constraintBottom_toBottomOf="@+id/plusbtn"
+                app:layout_constraintEnd_toStartOf="@+id/plusbtn"
+                app:layout_constraintTop_toTopOf="@+id/plusbtn" />
 
             <ImageButton
                 android:id="@+id/cartdelbtn"
@@ -96,9 +96,9 @@
                 android:layout_height="24dp"
                 android:layout_marginTop="14dp"
                 android:background="@android:color/transparent"
-                app:layout_constraintEnd_toEndOf="@+id/cartplusbtn"
+                app:layout_constraintEnd_toEndOf="@+id/plusbtn"
                 app:layout_constraintStart_toStartOf="@+id/minusbtn"
-                app:layout_constraintTop_toBottomOf="@+id/cartplusbtn"
+                app:layout_constraintTop_toBottomOf="@+id/plusbtn"
                 app:srcCompat="@drawable/deleteicon" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
